@@ -4,7 +4,6 @@ npm-debug.log
 
 # Build files
 
-
 # Editor-specific files
 .vscode/
 .idea/
@@ -15,14 +14,11 @@ npm-debug.log
 .env.test.local
 .env.production.local
 
-# Dependency lock files
-yarn.lock
-package-lock.json
-
 # Log files
 *.log
 
 # Miscellaneous
 .DS_Store
 Thumbs.db
+node_modules
 node_modules
