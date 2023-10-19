@@ -1,0 +1,515 @@
+.AddOption {
+    height: 1800px;
+    width: 500px;
+    background-color: white;
+  }
+//   ..........part 1.........
+.AddOption .trik{
+    width: 500px;
+    height:85px;
+    padding: 2px 1px;
+    margin-top: 50px;
+  }
+  .AddOption .trik .clue{
+    width: 493px;
+    height: 2px;
+    border-radius: 2px;
+    background: #0000004F;
+    margin-bottom: 9px;
+  }
+  .AddOption .trik .clue2{
+    width: 493px;
+    height: 2px;
+    border-radius: 2px;
+    background: #0000004F;
+    margin-top: 9px;
+  }
+  .AddOption .trik .fit form{
+    color: #212121;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .AddOption .txt{
+    height: 120px;
+    width: 500px;
+    padding: 0px 1px;
+    margin-top: 30px;
+}
+.AddOption .txt textarea{
+    background: #FFFFFF;
+    border: 3px solid #E7E7E7;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.AddOption .charge{
+  height: 1100px;
+  width: 500px;
+  padding: 0px 1px;
+  border: none;
+  background: #E7E7E7;
+  border-radius: 30px;
+}
+.AddOption .charge .carry{
+  width: 480px;
+  height: 110px;
+  margin: 2px 9px;
+  padding-top: 30px ;
+}
+.AddOption .charge .carry .angle{
+  width: 450;
+  height:70px ;
+  margin-right:  56px;
+  margin-left: 56px;
+  // margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.AddOption .charge .carry .angle .angle1{
+  width: 40px;
+  height: 40px;
+  background-color:  #00ADB5;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+}
+.AddOption .charge .carry .angle .angle2{
+  width: 40px;
+  height: 40px;
+  background-color:  #00ADB5;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+}
+.AddOption .charge .carry .angle .angle3{
+  width: 40px;
+  height: 40px;
+  background-color:  #00ADB5;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+}
+.AddOption .charge .carry .angle .angle4{
+  width: 40px;
+  height: 40px;
+  background-color:  #00ADB5;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+}
+.AddOption .charge .carry .angle .angle5{
+  width: 40px;
+  height: 40px;
+  background-color:  #00ADB5;
+  color: #FFFFFF;
+  border-radius: 50%;
+  position: relative;
+}
+.AddOption .charge .carry .angle .angle6{
+  width: 40px;
+  height: 40px;
+   background: #212121;
+  color: #FFFFFF;
+  border-radius: 50%;
+  position: relative;
+}
+.AddOption .charge .carry .angle .angle1 p{
+  position: absolute;
+  top: -2px;
+  left: 11px;
+  font-size: 26px;
+}
+.AddOption .charge .carry .angle .angle2 p{
+  position: absolute;
+  top: -2px;
+  left: 13px;
+  font-size: 26px;
+}
+.AddOption .charge .carry .angle .angle3 p{
+  position: absolute;
+  top: -2px;
+  left: 13px;
+  font-size: 26px;
+}
+.AddOption .charge .carry .angle .angle4 p{
+  position: absolute;
+  top: -2px;
+  left: 12px;
+  font-size: 26px;
+}
+.AddOption .charge .carry .angle .angle5 p{
+  position: absolute;
+  top: -2px;
+  left: 13px;
+  font-size: 26px;
+}
+.AddOption .charge .carry .angle .angle6 p{
+  position: absolute;
+  top: -13px;
+  left: 8px;
+  font-size: 38px;
+}
+.AddOption .charge .blank{
+  width: 480px;
+  height: 90px;
+  margin: 2px 9px;
+}
+.AddOption .charge .blank input{
+  width: 470px;
+  height: 60px;
+  margin-right: 10px;
+  margin-left: 6px;
+  padding-top: 1px;
+  padding-left: 16px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  border: 3px solid #cfc6c6;
+}
+.AddOption .sub{
+  width: 470px;
+  height: 63px;
+  margin: -22px 9px;
+}
+.AddOption .sub .sub2{
+  width: 145px;
+    height: 60px;
+    margin: 1px 1px;
+    float: right;
+    background: #FFFFFF;
+    border: 3px solid #cfc6c6;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.AddOption .sub .sub2 .sup img{
+  width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.AddOption .sub .sub2 .sup2{
+  height: 40px;
+    margin-top: 5px;
+}
+.AddOption .sub .sub2 .sup2 select{
+  width: 55px;
+  height: 47px;
+  border-color: #FFFFFF;
+  background-color:#FFFFFF ;
+  color: black;
+  font-weight:bolder;
+  font-size: 28px;
+}
+.AddOption .sub .sub2 .sup2 select option p{
+font-size: large;
+}
+.AddOption .charge .skill{
+  height: 391px;
+  width:440px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.AddOption .charge .skill .from1 input{
+  height: 55px;
+  width: 350px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 5px solid #00000040;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-left: 18px;
+}
+.AddOption .charge .skill .from2 input{
+  height: 55px;
+  width: 350px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 5px solid #00000040;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-left: 18px;
+}
+.AddOption .charge .skill .from3 input{
+  height: 55px;
+  width: 350px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 5px solid #00000040;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-left: 18px;
+  }
+.AddOption .charge .skill .from4 input{
+  height: 55px;
+  width: 350px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 5px solid #00000040;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-left: 18px;
+ }
+ .AddOption .charge .ride{
+  height: 28px;
+  width: 490px;
+  margin-top: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-right: 18px;
+ }
+ .AddOption .charge .ride p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #00ADB5;
+  float: right;
+ }
+ .AddOption .charge .title{
+  width: 490px;
+  height: 46px;
+  margin-top: 60px;
+  padding-left: 80px;
+ }
+ .AddOption .charge .title p{
+  color: #333333;
+  font-size: 20px;
+  font-weight: 500;
+  
+ }
+ .AddOption .charge .ctrl{
+  height: 292px;
+  width: 498px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: centre;
+ }
+ .AddOption .charge .ctrl .build1{
+  width: 490px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+ }
+ .AddOption .charge .ctrl .build2{
+  width: 490px;
+  height: 55px;
+  display:flex;
+  flex-direction: row;
+  position: relative;
+ }
+ .AddOption .charge .ctrl .build3{
+  width: 490px;
+  height: 55px;
+  display:flex;
+  flex-direction: row;
+  position: relative;
+ }
+ .AddOption .charge .ctrl .build4{
+  width: 490px;
+  height: 55px;
+  display:flex;
+  flex-direction: row;
+  position: relative;
+ }
+ .AddOption .charge .ctrl .build1 .lockf{
+  height:54px ;
+  width: 54px;
+  position: absolute;
+  top: 0px;
+    left: 58px;
+ }
+ .AddOption .charge .ctrl .build1 .lock1{
+  height:40px ;
+  width: 40px;
+  background-color: #c7c4c4 ;
+  border-radius: 50%;
+  position: relative;
+ }
+ .AddOption .charge .ctrl .build1 .lock1 p{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500px;
+  position: absolute;
+  top:0px;
+  right:12px;
+ }
+ .AddOption .charge .ctrl .build1 .lock2{
+  height: 52px;
+  width: 302px;
+  position: absolute;
+  top: 6px;
+  left: 111px;
+ }
+ .AddOption .charge .ctrl .build1 .lock2 p{
+  font-size: 19px;
+  font-weight: 400;
+  color: #333333;
+
+ }
+ .AddOption .charge .ctrl .build1 .lock3{
+position:absolute;
+top: 6px;
+right: 50px;
+ }
+ .AddOption .charge .ctrl .build1 .lock3  img{
+  height: 25px;
+  width: 25px;
+ }
+  .AddOption .charge .ctrl .build2 .lockf1{
+  height:54px ;
+  width: 54px;
+  position: absolute;
+  top: 0px;
+    left: 58px;
+ }
+ .AddOption .charge .ctrl .build2 .shift1{
+  height:40px ;
+  width: 40px;
+  background-color: #c7c4c4 ;
+  border-radius: 50%;
+  position: relative;
+ }
+ .AddOption .charge .ctrl .build2 .shift1 p{
+  color: #FFFFFF;
+  font-size: 27px;
+  font-weight: 500px;
+  position: absolute;
+  top:-2px;
+  right:11px;
+ }
+ .AddOption .charge .ctrl .build2 .shift2{
+  height: 52px;
+  width: 302px;
+  position: absolute;
+  top: 6px;
+  left: 111px;
+ }
+ .AddOption .charge .ctrl .build2 .shift2 p{
+  font-size: 19px;
+  font-weight: 400;
+  color: #333333;
+
+ }
+ .AddOption .charge .ctrl .build2 .shift3{
+  position:absolute;
+  top: 6px;
+  right: 50px;
+  }
+   .AddOption .charge .ctrl .build2 .shift3  img{
+    height: 25px;
+    width: 25px;
+   }
+   .AddOption .charge .ctrl .build3 .lockf2{
+    height:54px ;
+    width: 54px;
+    position: absolute;
+    top: 0px;
+      left: 58px;
+   }
+   .AddOption .charge .ctrl .build3 .gallery1{
+    height:40px ;
+    width: 40px;
+    background-color: #c7c4c4 ;
+    border-radius: 50%;
+    position: relative;
+   }
+   .AddOption .charge .ctrl .build3 .gallery1 p{
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: 500px;
+    position: absolute;
+    top:-3px;
+    right:12px;
+   }
+   .AddOption .charge .ctrl .build3 .gallery2{
+    height: 52px;
+    width: 302px;
+    position: absolute;
+    top: 6px;
+    left: 111px;
+   }
+   .AddOption .charge .ctrl .build3 .gallery2 p{
+    font-size: 19px;
+    font-weight: 400;
+    color: #333333;
+  
+   }
+   .AddOption .charge .ctrl .build3 .gallery3{
+    position:absolute;
+    top: 6px;
+    right: 50px;
+    }
+     .AddOption .charge .ctrl .build3 .gallery3  img{
+      height: 25px;
+      width: 25px;
+     }
+     .AddOption .charge .ctrl .build4 .lockf3{
+      height:54px ;
+      width: 54px;
+      position: absolute;
+      top: 0px;
+        left: 58px;
+     }
+     .AddOption .charge .ctrl .build4 .fab1{
+      height:40px ;
+      width: 40px;
+      background-color: #c7c4c4 ;
+      border-radius: 50%;
+      position: relative;
+     }
+     .AddOption .charge .ctrl .build4 .fab1 p{
+      color: #FFFFFF;
+      font-size: 26px;
+      font-weight: 500px;
+      position: absolute;
+      top:-1px;
+      right:10px;
+     }
+     .AddOption .charge .ctrl .build4 .fab2{
+      height: 52px;
+      width: 302px;
+      position: absolute;
+      top: 6px;
+      left: 111px;
+     }
+     .AddOption .charge .ctrl .build4 .fab2 p{
+      font-size: 19px;
+      font-weight: 400;
+      color: #333333;
+    
+     }
+     .AddOption .charge .ctrl .build4 .fab3{
+      position:absolute;
+      top: 6px;
+      right: 50px;
+      }
+       .AddOption .charge .ctrl .build4 .fab3  img{
+        height: 25px;
+        width: 25px;
+       }
+       .AddOption .edit{
+        height: 100px;
+        width: 493px;
+        margin-top: 30px;
+       }
+       .AddOption .edit p{
+        text-align: center;
+        color: #00ADB5;
+        font-size: 19px;
+        font-weight: 500;
+       }
+      
+       

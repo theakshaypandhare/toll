@@ -1,0 +1,224 @@
+.Assignment {
+  height: 1800px;
+  width: 500px;
+  background-color: white;
+}
+.Assignment .top{
+    width: 500px;
+    height:85px;
+    padding: 2px 1px;
+    margin-top: 50px;
+}
+.Assignment .top .crop{
+    width: 493px;
+    height: 2px;
+    border-radius: 2px;
+    background: #0000004F;
+    margin-bottom: 9px;
+}
+.Assignment .top .crop2{
+    width: 493px;
+    height: 2px;
+    border-radius: 2px;
+    background: #0000004F;
+    margin-top: 12px;
+}
+.Assignment .top .short form{
+    color: #212121;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Assignment .long{
+    height: 120px;
+    width: 500px;
+    padding: 0px 1px;
+    margin-top: 30px;
+}
+.Assignment .long textarea{
+    background: #FFFFFF;
+    border: 3px solid #E7E7E7;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.Assignment .squre{
+    height: 280px;
+    width: 500px;
+    padding: 0px 1px;
+    border: none;
+    background: #E7E7E7;
+    border-radius: 30px;
+}
+.Assignment .squre .squre2{
+    width: 480px;
+    height: 110px;
+    margin: 2px 9px;
+    padding-top: 30px ;
+}
+.Assignment .squre .squre2 .circle{
+    width: 450;
+    height:70px ;
+    margin-right:  56px;
+    margin-left: 56px;
+    // margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Assignment .squre .squre2 .circle .circle1{
+    width: 40px;
+    height: 40px;
+    background-color:  #00ADB5;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+}
+.Assignment .squre .squre2 .circle .circle2{
+    width: 40px;
+    height: 40px;
+    background-color:  #00ADB5;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+}
+.Assignment .squre .squre2 .circle .circle3{
+    width: 40px;
+    height: 40px;
+    background-color:  #00ADB5;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+}
+.Assignment .squre .squre2 .circle .circle4{
+    width: 40px;
+    height: 40px;
+    background-color:  #00ADB5;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+}
+.Assignment .squre .squre2 .circle .circle5{
+    width: 40px;
+    height: 40px;
+    background-color:  #00ADB5;
+    color: #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+}
+.Assignment .squre .squre2 .circle .circle6{
+    width: 40px;
+    height: 40px;
+     background: #212121;
+    color: #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+}
+.Assignment .squre .squre2 .circle .circle1 p{
+    position: absolute;
+    top: -2px;
+    left: 11px;
+    font-size: 26px;
+}
+.Assignment .squre .squre2 .circle .circle2 p{
+    position: absolute;
+    top: -2px;
+    left: 13px;
+    font-size: 26px;
+}
+.Assignment .squre .squre2 .circle .circle3 p{
+    position: absolute;
+    top: -2px;
+    left: 13px;
+    font-size: 26px;
+}
+.Assignment .squre .squre2 .circle .circle4 p{
+    position: absolute;
+    top: -2px;
+    left: 12px;
+    font-size: 26px;
+}
+.Assignment .squre .squre2 .circle .circle5 p{
+    position: absolute;
+    top: -2px;
+    left: 13px;
+    font-size: 26px;
+}
+.Assignment .squre .squre2 .circle .circle6 p{
+    position: absolute;
+    top: -13px;
+    left: 8px;
+    font-size: 38px;
+}
+.Assignment .squre .round{
+    width: 480px;
+    height: 90px;
+    margin: 2px 9px;
+}
+.Assignment .squre .round input{
+    width: 470px;
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 6px;
+    padding-top: 1px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 3px solid #cfc6c6;
+}
+.Assignment .clock{
+    width: 470px;
+    height: 63px;
+    margin: -22px 9px;
+}
+.Assignment .clock .clock2{
+    width: 145px;
+    height: 60px;
+    margin: 1px 1px;
+    float: right;
+    background: #FFFFFF;
+    border: 3px solid #cfc6c6;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Assignment .clock .clock2 .watch img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.Assignment .clock .clock2 .watch2{
+    height: 40px;
+    margin-top: 5px;
+    
+}
+.Assignment .clock .clock2 .watch2 select{
+    width: 55px;
+    height: 47px;
+    border-color: #FFFFFF;
+    background-color:#FFFFFF ;
+    color: black;
+    font-weight:bolder;
+    font-size: 28px;
+}
+.Assignment .clock .clock2 .watch2 select option p{
+    font-size: large;
+}
+.Assignment .template{
+    height: 50px;
+    width: 500px;
+    margin-top: 122px;
+}
+.Assignment .template p{
+    text-align: center;
+    color: #00ADB5;
+    font: Roboto;
+    font-size: 17px;
+    font-weight: bold;
+}

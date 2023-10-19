@@ -1,0 +1,192 @@
+.upper_side{
+    width: 100%;
+    height: 6rem;
+    background-color: #E3F6F7;
+}
+.upper_side .back_to{
+    width: 10%;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #00ADB5;
+    float: left;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding: 9px 12px;
+}
+    // @include mobile{
+    //      .back_to{
+    //                         height: 2.5rem;
+    //             }
+    // }
+
+.upper_side .back_to img{
+    height: 18px;
+    width: 18px;
+    
+}
+.upper_side .pro_file{
+    width: 55%;
+    height: 5.5rem;
+    float: right;
+    margin-top: 2px;
+    display: flex;
+    gap: 9px;
+}
+.upper_side .pro_file img{
+    width:22%;
+    height: 75%;
+    border-radius: 50%;
+    margin-top: 11px;
+}
+.upper_side .pro_file .name{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+.upper_side .pro_file .name h3{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.upper_side .pro_file .name h5{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #A5A5A5;
+}
+.last_time{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+}
+.last_time span{
+    font-size: 1em;
+    font-weight: 500;
+    color: #A5A5A5;
+}
+.chatpage .sms_1{
+    width: 100%;
+    height: 5rem;
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.chatpage .sms_1 .first{
+    width: 40%;
+    height: 2.2rem;
+    background-color: #E7E7E7;
+    border-radius: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-left: 9px;
+}
+.chatpage .sms_1 .second{
+    width: 50%;
+    height: 2.2rem;
+    background-color: #E7E7E7;
+    border-radius: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-left: 9px;
+}
+.chatpage .sms_2{
+    width:48%;
+    height: 1rem;
+}
+.chatpage .sms_2 span{
+    float: right;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #707070;
+}
+.chatpage .sms_3{
+    width: 100%;
+    height: 5rem;
+    margin-top: 15px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+.chatpage .sms_3 .first{
+    width: 40%;
+    height: 2.2rem;
+    background-color: #00ADB5;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-left: 9px;
+    float: right;
+}
+.chatpage .sms_3 .second{
+    width: 50%;
+    height: 2.2rem;
+    background-color: #00ADB5;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-left: 9px;
+    float: right;
+}
+.chatpage .sms_4{
+    width:48%;
+    height: 1rem;
+    float: right;
+    margin-right:13px;
+}
+.chatpage .sms_4 span{
+    float: right;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #00ADB5;
+}
+.chatpage .blank{
+    width: 100%;
+    height: 15rem;
+    margin-top: 19px;
+}
+.chatpage .share{
+    width: 100%;
+    height:3.5rem;
+}
+.chatpage .share img{
+    width:38px;
+    height: 38px;
+    float: right;
+    margin-top: 3px;
+}
+.chatpage .share .replace{
+    width: 89%;
+    height: 2.8rem;
+    border-radius: 30px;
+    background-color: #EFF6FCDE;
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: center;
+    padding: 0px 9px;
+}
+.chatpage .share .replace .icon_1 img{
+    width: 21px;
+    height: 21px;
+}
+.chatpage .share .replace .icon_2 img{
+    width: 23px;
+    height: 18px;
+}
+.chatpage .share  input{
+    width: 80%;
+    height: 1.8rem;
+    background-color: #EFF6FCDE;
+    font-size: 1em;
+    border: none;
+}

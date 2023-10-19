@@ -1,0 +1,235 @@
+.resultup .video{
+    width: 100%;
+    height: 17rem;
+    background-color: #00ADB51C;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.resultup .icons{
+    width: 100%;
+    height: 3rem;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.resultup .icons .icon1 .icon2 .icon3 .icon4 .icon5{
+    color: black;
+}
+.resultup .icons span{
+        font-size: 1em;
+        font-weight: 500;
+}
+.resultup .trait{
+    width: 100%;
+    height: 6rem;
+    margin-top: 2px;
+    border-left: 2px solid #00000038;
+    border-right: 2px solid #00000038;
+    border-bottom: 3px solid #00000038;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.resultup .trait span{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.resultup .trait .common{
+    width: 100%;
+    height: 2.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.resultup .trait .common .first{
+    width: 7.4rem;
+    height: 1.7rem;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+// .resultup .trait .common .first img{
+
+// }
+.resultup .common .first span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.resultup .trait .common .second{
+    width: 5rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+// .resultup .trait .common .second img{
+
+// }
+.resultup .common .second span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.resultup .trait .common .third{
+    width: 5.5rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+// .resultup .trait .common .third img{
+
+// }
+.resultup .common .third span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.resultup .trait .common .fourth{
+    width: 3.8rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+// .resultup .trait .common .fourth img{
+     
+// }
+.resultup .common .fourth span{
+    font-size:  0.8em;
+    margin-left: 3px;
+}
+.resultup .result-s{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 10px;
+}
+.resultup .result-s .left-bar{
+    width: 13.7rem;
+    height: 2rem;
+    background-color:#00ADB5;
+    color: #ffffff;
+    float: left;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px 0px;
+}
+.resultup .result-s .left-bar .part-1 span{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.resultup .result-s .right-bar{
+    width: 6.5rem;
+    height: 2rem;
+    background-color: #ffffff;
+    color: #00ADB5;
+    float: right;
+    border: 1px solid  #00ADB5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px 0px;
+}
+.resultup .result-s .right-bar .part-1 {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.resultup .square{
+    width:100%;
+    height:35rem;
+    background-color:  #00ADB51C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.resultup .square .square_1{
+    width:95%;
+    height:33rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #00ADB5;
+}
+.resultup .square .square_1 .circle{
+    width:100%;
+    height: 4rem;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:7px;
+}
+.resultup .square .square_1 .circle .part-1{
+    width: 25%;
+    height: 2.5rem ;
+    display: flex;
+    justify-content: space-around;
+}
+.resultup .square .square_1 .circle .part-1 .first button{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    border:none;
+    background-color: #D4D4D4;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.resultup .square .square_1 .circle .part-1 .second button{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ADB5;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.resultup .square .square_1 .pointer{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:1px;
+    padding: 0px 12px;
+}
+.resultup .square .square_1 .pointer .points{
+    width: 46%;
+    height: 3rem;
+    display: flex;
+    gap: 15px;
+}
+.resultup .square .square_1 .pointer .points h6{
+ font-size:1em;
+ font-weight: 500;
+ color: #000000;
+ margin-top: 4px;
+}
+.resultup .square .square_1 .pointer .points button{
+ width: 2.8rem;
+ height: 2rem;
+ background-color: #00ADB5;
+ color: #ffffff;
+ border: none;
+ border-radius: 5px;
+}
+.resultup .square .square_1 .pointer .rank{
+    width: 36%;
+    height: 3rem;
+    display: flex;
+    gap: 15px;
+}
+.resultup .square .square_1 .pointer .rank h6{
+ font-size: 1em;
+ font-weight: 500;
+ color: #000000;
+ margin-top: 4px;
+}
+.resultup .square .square_1 .pointer .rank button{
+ width: 3.5rem;
+ height: 2rem;
+ background-color: #00ADB5;
+ color: #ffffff;
+ border: none;
+ border-radius: 5px;
+}

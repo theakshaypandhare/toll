@@ -1,0 +1,309 @@
+.video{
+    width: 100%;
+    height: 17rem;
+    background-color: #00ADB51C;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.icons{
+    width: 100%;
+    height: 3rem;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons .icon1 .icon2 .icon3 .icon4 .icon5{
+color: black;
+}
+.icons span{
+    font-size: 1em;
+    font-weight: 500;
+}
+.trait{
+    width: 100%;
+    height: 6rem;
+    margin-top: 2px;
+    border-left: 2px solid #00000038;
+    border-right: 2px solid #00000038;
+    border-bottom: 3px solid #00000038;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.trait span{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.trait .common{
+    width: 100%;
+    height: 2.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.trait .common .first{
+    width: 7.4rem;
+    height: 1.7rem;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .first span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.trait .common .second{
+    width: 5rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .second span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.trait .common .third{
+    width: 5.5rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .third span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.trait .common .fourth{
+    width: 3.8rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .fourth span{
+    font-size:  0.8em;
+    margin-left: 3px;
+}
+.results{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 10px;
+}
+.results .left-bar{
+    width: 13.7rem;
+    height: 2rem;
+    background-color: #00ADB5;
+    color: #ffffff;
+    float: left;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px 0px;
+}
+.results .left-bar .part-1 span{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.results .right-bar{
+    width: 6.5rem;
+    height: 2rem;
+    background-color: #00ADB5;
+    color: #ffffff;
+    float: right;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px 0px;
+}
+.results .right-bar .part-1 {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.rewards{
+    width: 100%;
+    height: 2.5rem;
+}
+.rewards p{
+    font-size: 0.8em;
+    font-weight: 500;
+    float: left;
+    width: 13.5rem;
+    height: 2.5rem;
+    line-height: 1.2em;
+}
+.rewards p strong{
+    color: #00ADB5;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.risk_analysis{
+    width: 100%;
+    height: 25rem;
+    margin-top: 9px;
+    display:inline-grid;
+    grid-template-columns: 49% 49% ;
+    grid-template-rows: 5.8rem;
+    grid-column-gap: 4px;
+    row-gap: 8px ;
+}
+.risk_analysis .enterprener{
+    width: 98%;
+    height: 5.8rem;
+    border: 2px solid #00ADB5;
+    border-radius: 10px;
+    padding: 5px 7px;
+    background-color: #FFFFFF;
+}
+.risk_analysis .enterprener p{
+    font-size: 0.6em;
+    // font-weight: 500;
+    line-height: 1.3em;
+    color: #000000;
+    word-break: break-all;
+}
+.risk_analysis .enterpreneurship{
+    width: 96%;
+    height:5.8rem ;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+}
+.risk_analysis .enterpreneurship h3{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.risk_analysis .enterpreneurship h5{
+    font-size: 1em;
+    font-weight: 500;
+    color: #5A6777;
+}
+.risk_analysis .enterpreneurship h6{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #5A6777;
+}
+.risk_analysis .enterpreneurship h6 strong{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #00ADB5;
+}
+.risk_analysis .enterpreneurship .items{
+    width: 96% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.items .item-1{
+    color: #00ADB5;
+    font-size: 0.7em;
+}
+.items .item-2{
+    color: #00ADB5;
+    font-size: 0.7em; 
+}
+.items .item-3{
+    color: #00ADB5;
+    font-size: 0.7em; 
+}
+.description {
+    width: 100%;
+    margin-top: 1.2rem;
+    height: 1.3rem;
+    padding-left: 5px;
+}
+.description h3{
+    font-size: 1.1em;
+    font-weight: 500;
+    color:#000000;
+}
+.line-part{
+    width: 100%;
+    height: 2px;
+    background-color: #504b4b;
+    margin-top: 7px;
+}
+.choose-option{
+    width: 100%;
+    height:2rem;
+    margin-top: 5px;
+}
+.choose-option h4{
+    font-size: 1em;
+    font-weight: 500;
+    color:#000000;
+    text-align: center;
+}
+.token{
+    width: 100%;
+    height: 6rem;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.token .watch_sec{
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    border-left: 1px solid gray;
+    border-bottom: 2px solid gray;
+}
+.token .watch_sec .first{
+    width: 75%;
+    height: 2.5rem;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #00ADB5;
+    padding-left: 0.2em;
+}
+.token .watch_sec .second{
+    width: 25%;
+    height: 2.5rem;
+    background-color: #00ADB5;
+    color: #ffffff;
+    padding-left: 1em;
+}
+.token .use_token{
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    border-left: 1px solid gray;
+    border-bottom: 2px solid gray;
+}
+.token .use_token .first{
+    width: 75%;
+    height: 2.5rem;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #00ADB5;
+    padding-left: 0.2em;
+}
+.token .use_token .second{
+    width: 25%;
+    height: 2.5rem;
+    background-color: #00ADB5;
+    color: #ffffff;
+    padding-left: 1em;
+}
+.title{
+    height:2rem;
+    width:100%;
+    margin-top: 1em;
+}
+.title p{
+    font-size: 0.9em;
+    color:#000000
+}
+.embark{
+    height:7rem;
+    width:100%;
+    margin-top: 1em;
+}
+.embark p{
+    font-size: 0.9em;
+    color:#000000;
+}

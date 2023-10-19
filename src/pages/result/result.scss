@@ -1,0 +1,415 @@
+.Result {
+    height: 1800px;
+    width: 500px;
+    background-color: white;
+  }
+  .Result .back-ground{
+    height: 360px;
+    width: 495px;
+  }
+  .Result .back-ground .back-side{
+    height: 300px;
+    width: 495px;
+    background-color: #00ADB51C;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    position: relative;
+  }
+  .Result .back-ground .back-side2{
+    height: 60px;
+    width: 495px;
+    position: absolute;
+    top: 355px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Result .back-ground .back-side2 .knowledge{
+    height: 30px;
+    width: 90px;
+    position: relative;
+}
+.Result .back-ground .back-side2 .knowledge img{
+    height: 22px;
+    width: 28px;
+    position: absolute;
+    top:8px;
+    left: 8px;
+}
+.Result .back-ground .back-side2 .knowledge p{
+    color:  #2F2D2D;
+    position: absolute;
+    left: 40px;
+    top: 3px;
+    font-size: 19px;
+}
+.Result .back-ground .back-side2 .message{
+    height: 30px;
+    width: 90px;
+    position: relative;
+}
+.Result .back-ground .back-side2 .message img{
+    height: 24px;
+    width: 28px;
+    position: absolute;
+    top:11px;
+    left: 6px;
+}
+.Result .back-ground .back-side2 .message p{
+    color:  #2F2D2D;
+    position: absolute;
+    left: 40px;
+    top: 6px;
+    font-size: 19px;
+}
+.Result .back-ground .back-side2 .hello{
+    height: 30px;
+    width: 90px;
+    position: relative;
+}
+.Result .back-ground .back-side2 .hello img{
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    top: 7px;
+    left: 25px;
+}
+.Result .back-ground .back-side2 .see{
+    height: 30px;
+    width: 90px;
+    position: relative;
+}
+.Result .back-ground .back-side2 .see img{   
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+}
+.Result .back-ground .back-side2 .see p{
+    color:  #2F2D2D;
+    position: absolute;
+    left: 45px;
+    top: 6px;
+    font-size: 19px;
+}
+.Result .back-ground .back-side2 .send{
+    height: 30px;
+    width: 90px;
+    position: relative;
+}
+.Result .back-ground .back-side2 .send img{
+height: 20px;
+width: 20px;
+position: absolute;
+top: 9px;
+right: 44px;
+}
+.Result .traits{
+    width: 495px;
+    height: 126px;
+    margin-top: -21px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 3px solid gray;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+.Result .traits .traits1{
+    height: 60px;
+    width: 485px;
+    padding-top: 9px;
+    padding-left: 27px;
+}
+.Result .traits .traits1 p{
+    color: #252222;
+    font-size: 26px;
+    font-weight: 500;
+}
+.Result .traits .creative{
+    height: 42px;
+    width: 485px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .Result .traits .creative .think{
+    width: 119px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #00ADB5;
+    position: relative;
+  }
+  .Result .traits .creative .think img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 5px
+  }
+  .Result .traits .creative .think p{
+    color:  #212121;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 1px;
+    left: 26px;
+  }
+  .Result .traits .creative .tecnic{
+    width: 90px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #00ADB5;
+    position: relative;
+  }
+  .Result .traits .creative .tecnic img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+  }
+  .Result .traits .creative .tecnic p{
+    color:  #212121;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 1px;
+    left: 26px;
+  }
+  .Result .traits .creative .leader{
+    width: 90px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #00ADB5;
+    position: relative;
+  }
+  .Result .traits .creative .leader img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+  }
+  .Result .traits .creative .leader p{
+    color:  #212121;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 1px;
+    left: 26px;
+  }
+  .Result .traits .creative .music1{
+    width: 90px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #00ADB5;
+    position: relative;
+  }
+  .Result .traits .creative .music1 img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+  }
+  .Result .traits .creative .music1 p{
+    color:  #212121;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 1px;
+    left: 26px;
+  }
+  .Result .markk{
+    width: 495px;
+    height: 85px;
+    margin-top: 16px;
+    padding: 0px 12px;
+  }
+  .Result .markk .sidebar1{
+    width: 238px;
+    height: 32px;
+    border:2px solid #00ADB5;
+    background-color: #00ADB5;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: left;
+  }
+  .Result .markk .sidebar1 .sec1 p{
+    color:  #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 2px;
+    left:5px;
+   }
+   .Result .markk .sidebar1 .sec2 {
+    position: absolute;
+    top: 0px;
+    left:117px;
+    color:  #FFFFFF;
+   }
+   .Result .markk .sidebar1 .sec3 p{
+    color:  #FFFFFF;
+   font-size: 15px;
+   font-weight: 500;
+   position: absolute;
+   top: 2px;
+   left:142px;
+  }
+  .Result .markk .sidebar1 .sec4{
+    position: absolute;
+    top: 0px;
+    left:203px;
+    color:  #FFFFFF;
+  }
+  .Result .markk .sidebar2{
+    width: 98px;
+    height: 32px;
+    background-color:   #FFFFFF;
+    border-radius: 7px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border:2px solid #00ADB5;
+  }
+  .Result .markk .sidebar2 .sec5 p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #00ADB5;
+    position: absolute;
+    top: 3px;
+    left: 13px;
+  }
+  .Result .markk .sidebar2 .sec6 {
+    position: absolute;
+    top: 0px;
+    left: 67px;
+    color: #00ADB5;
+  }
+  .Result .luck{
+    width: 495px;
+    height: 700px;
+    background-color: #00ADB51C;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-top: 3px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 37px;
+  }
+  .Result .luck .arrow1{
+    width: 461px;
+    height: 672px;
+    border-radius: 26px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 5px;
+    border: 2px solid #00ADB5;
+    background-color: #FFFFFF
+  }
+  .Result .luck .arrow1 .relate{
+    width: 456px;
+    height: 88px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .Result .luck .arrow1 .relate .view{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .Result .luck .arrow1 .relate .view .bloom1{
+    width: 50px;
+    height: 50px;
+    background-color: #D4D4D4;
+    color: #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    }
+    .Result .luck .arrow1 .relate .view .bloom1 p{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 4px;
+    left: 18px;
+    }
+    .Result .luck .arrow1 .relate .view .bloom2{
+    width: 50px;
+    height: 50px;
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    }
+    .Result .luck .arrow1 .relate .view .bloom2 p{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 4px;
+    left: 18px;
+    }
+    .Result .luck .arrow1 .rank{
+    width: 456px;
+    height: 88px;
+    margin-top: 2px;
+    padding: 0px 21px;
+    }
+    .Result .luck .arrow1 .rank .rank1{
+        height: 45px;
+        width: 200px;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .Result .luck .arrow1 .rank .rank1 p{
+        font-size: 18px;
+        font-weight: 500;
+        color: #000000;
+        padding-top: 2px;
+    }
+    .Result .luck .arrow1 .rank .rank1 button{
+        width: 52px;
+        height: 35px;
+        background: #00ADB5;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 500;
+        border:none;
+        border-radius: 10px;
+    }
+    .Result .luck .arrow1 .rank .rank2{
+        height: 45px;
+        width: 200px;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .Result .luck .arrow1 .rank .rank2 p{
+        font-size: 18px;
+        font-weight: 500;
+        color: #000000;
+        padding-top: 2px;
+    }
+    .Result .luck .arrow1 .rank .rank2 button{
+        width: 80px;
+        height: 35px;
+        background: #00ADB5;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 500;
+        border:none;
+        border-radius: 10px;
+    }

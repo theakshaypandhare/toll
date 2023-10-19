@@ -1,0 +1,122 @@
+@import "../../pages/style.scss";
+
+.navbarr {
+    display: flex;
+    z-index: 9999;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    border-bottom: solid 1px lightgray;
+    position: sticky;
+    top: 0;
+    background-color: #E3F6F7;
+
+    
+    @include mobile {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        top: auto;
+    }
+
+
+    .leftt {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        @include mobile {
+        gap: 0;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 20px;
+
+            @include mobile {
+                display: none;
+            }
+        }
+
+        .frnds {
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+
+    .centerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .search {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid lightgray;
+            border-radius: 7px;
+            padding: 5px;
+            width: 60%;
+
+            @include mobile {
+                border: none;
+                
+            width: auto;
+                // justify-content: center;
+            }
+
+            input {
+                border: none;
+                background-color: transparent;
+
+                @include mobile {
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+    .rightt {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        
+        
+        @include mobile {
+            width: 100%;
+        }
+
+        .profileicon
+        {            
+            @include mobile {
+                display: none;
+            }
+        }
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+
+            span {
+                
+            @include mobile {
+                display: none;
+            }
+
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,28 @@
+# Node and NPM
+node_modules/
+npm-debug.log
+
+# Build files
+
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Log files
+*.log
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+node_modules

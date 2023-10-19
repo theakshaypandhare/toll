@@ -1,0 +1,133 @@
+.updated{
+    font-size: 5px;
+}
+.inside{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 7px;
+}
+.inside .top{
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.3098039216);
+    margin-top: 22px;
+}
+.inside .input form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+    color:  #212121;
+    font-weight: 600;
+}
+.inside .bottom{
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.3098039216);
+    margin-bottom: 17px;
+}
+.adddescrip{
+    width: 100%;
+    height: 7rem;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.adddescrip textarea{
+    width: 97%;
+    height: 6rem;
+    margin: 0px 6px;
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #7A7A7A;
+    border: 2px solid #7A7A7A ;
+    border-radius: 10px;
+}
+.slot{
+    width: 100%;
+}
+.slot .numbers{
+    width: 97%;
+    height: 16rem;
+    margin: 0px 6px;
+    background-color: #E7E7E7;
+    border-radius: 22px;
+    padding-top: 2px;
+}
+.slot .numbers .main-1{
+    width: 94%;
+    height: 2.5rem;
+    margin-top: 11px;
+    margin-left: 9px;
+    margin-right: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 50px ;
+}
+.slot .numbers .main-1 button{
+    height: 2rem;
+    width: 2rem;
+    background-color: #00ADB5;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.slot .numbers .main-1 .button button{
+    height: 2rem;
+    width: 2rem;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.slot .numbers input{
+    width: 90%;
+    height: 2.7rem;
+    margin: 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: #7A7A7A;
+    padding: 0px 12px;
+}
+.slot .numbers .choose{
+    width: 25%;
+    height: 2.5rem;
+    margin-top: 8px;
+    margin-right: 12px;
+    border: 2px solid #d9d9d9;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.slot .numbers .choose .clock{
+    font-size: 1.8rem;
+    color: #231F20;
+    margin-bottom: 4px;
+}
+.slot .numbers .choose .clock-1 select{
+    border: none;
+    font-size: 1.3rem;
+}
+.updated .addresult{
+    width: 100%;
+    height: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    color:#00ADB5;
+    font-size: 1rem;
+    font-weight: 500;
+}

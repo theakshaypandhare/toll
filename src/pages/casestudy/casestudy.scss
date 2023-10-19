@@ -1,0 +1,509 @@
+.CaseStudy {
+    height: 2000px;
+    width: 500px;
+    background-color: white;
+  }
+  .back {
+    background-color: #00adb51c;
+    width: 500px;
+    height: 300px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    // position: relative;
+  }
+  .pro {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .pro img {
+    height: 80px;
+    width: 80px;
+    padding: 2px;
+    border-radius: 50%;
+    background: linear-gradient(225deg, #8a3bee 0%, #491d3e 39%, #fe9402 91.67%);
+    border-width: 5px;
+  }
+  .back h5 {
+    color: black;
+    text-align: center;
+    padding: 8px 3px;
+  }
+  .num {
+    width: 100%;
+    height: 25px;
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 30px;
+    justify-content: space-around;
+    align-items: centre;
+  }
+  .num h6 {
+    color: black;
+    font-weight: bolder;
+  }
+  .followers {
+    width: 100%;
+    height: 55px;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .followers p {
+    color: black;
+    line-height: 15px;
+    font-style: bold;
+  }
+  .last {
+    height: 45px;
+    margin: 2px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .last button {
+    background: #00adb5;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 2px 8px;
+    cursor: pointer;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .buttons button {
+    background: #00adb5;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 2px 8px;
+    cursor: pointer;
+    //    box-shadow: gray;
+  }
+  .videos{
+    height: 600px;
+    width: 500px;
+    background-color: #E7E7E7;
+    border-radius: 25px;
+  }
+  .create-study{
+    height:35px;
+    width: 170px;
+    background-color: #FFFFFF;
+    border: 2px solid #00ADB5;
+    float: right;
+    margin-top: 12px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .create-study span{
+    margin-top: 1px;
+    color: #231F20;
+  }
+  .create-study h6{
+    margin-top: 4px;
+    color: #5A6777;
+    font-weight: 500;
+  }
+  .videos .enterprener-1{
+    height: 115px;
+    width: 490px;
+    margin-top: 13px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px 12px;
+  }
+  .videos .enterprener-1 .part-1{
+    height: 110px ;
+    width: 227px;
+    border: 2px solid #00ADB5;
+    border-radius: 15px;
+    float: left;
+    background-color:#FFFFFF ;
+    padding: 8px 9px;
+  }
+  .videos .enterprener-1 .part-1 p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11px;
+    color: #000000;
+    word-break: break-all;
+  }
+  .videos .enterprener-1 .part-2{
+    height: 110px ;
+    width: 227px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 4px;
+  }
+  .videos .enterprener-1 .part-2 h3{
+   color: #252222;
+   font-size: 21px;
+   font-weight: 500;
+  }
+  .videos .enterprener-1 .part-2 h5{
+    color:#5A6777;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .videos .enterprener-1 .part-2 h6{
+    color:#5A6777;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .videos .enterprener-1 .part-2 h6 strong{
+    color: #00ADB5;
+  }
+  .videos .enterprener-1 .part-2 .icons-1{
+    width: 226px;
+    height: 24px;
+    position: relative;
+  }
+  .videos .enterprener-1 .part-2 .icons-1 .div-a{
+    color: #00ADB5;
+    position:absolute;
+    top: -8px;
+  }
+  .videos .enterprener-1 .part-2 .icons-1 .div-b p{
+    color: #00ADB5;
+    font-size: 13px;
+    font-weight: 500;
+    position:absolute;
+    top: -3px;
+    left: 21px;
+  }
+  .videos .enterprener-1 .part-2 .icons-1 .div-c{
+    color: #00ADB5;
+    position:absolute;
+    top: -6px;
+    left: 78px ;
+  }
+  .videos .enterprener-1 .part-2 .icons-1 .div-d p{
+    color: #00ADB5;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: -3px;
+    left: 98px;
+  }
+  .videos .enterprener-1 .part-2 .icons-1 .div-e{
+    color: #00ADB5;
+    position:absolute;
+    top: -7px;
+    left: 163px;
+  }
+  .videos .enterprener-1 .part-2 .icons-1 .div-f p{
+    color: #00ADB5;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: -3px;
+    left: 185px;
+  }
+  .videos .enterprener-2{
+  height: 115px;
+  width: 490px;
+  margin-top: 13px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0px 12px;
+  }
+  .videos .enterprener-2 .part-1{
+    height: 110px;
+    width: 227px;
+    border: 2px solid #00ADB5;
+    border-radius: 15px;
+    float: left;
+    background-color: #FFFFFF;
+    padding: 8px 9px;
+  }
+  .videos .enterprener-2 .part-1 p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11px;
+    color: #000000;
+    word-break: break-all;
+  }
+  .videos .enterprener-2 .part-2{
+    height: 110px;
+    width: 227px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 4px;
+  }
+  .videos .enterprener-2 .part-2 h3{
+    color: #252222;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .videos .enterprener-2 .part-2 h5{
+    color: #5A6777;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .videos .enterprener-2 .part-2 h6{
+    color: #5A6777;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .videos .enterprener-2 .part-2 h6 strong{
+    color: #00ADB5;
+  }
+  
+.videos .enterprener-2 .part-2 .icons-1{
+  width: 226px;
+  height: 24px;
+  position: relative;
+}
+.videos .enterprener-2 .part-2 .icons-1 .div-a{
+    color: #00ADB5;
+    position: absolute;
+    top: -8px;
+}
+.videos .enterprener-2 .part-2 .icons-1 .div-b p{
+  color: #00ADB5;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  top: -3px;
+  left: 21px
+}
+
+.videos .enterprener-2 .part-2 .icons-1 .div-c{
+  color: #00ADB5;
+  position: absolute;
+  top: -6px;
+  left: 78px;
+}
+.videos .enterprener-2 .part-2 .icons-1 .div-d p{
+  color: #00ADB5;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  top: -3px;
+  left: 98px;
+}
+.videos .enterprener-2 .part-2 .icons-1 .div-e{
+  color: #00ADB5;
+    position: absolute;
+    top: -7px;
+    left: 163px;
+}
+.videos .enterprener-2 .part-2 .icons-1 .div-f p{
+  color: #00ADB5;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: -3px;
+    left: 185px;
+}
+.videos .enterprener-3{
+    height: 115px;
+    width: 490px;
+    margin-top: 13px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px 12px;
+}
+.videos .enterprener-3 .part-1{
+  height: 110px;
+  width: 227px;
+  border: 2px solid #00ADB5;
+  border-radius: 15px;
+  float: left;
+  background-color: #FFFFFF;
+  padding: 8px 9px;
+}
+.videos .enterprener-3 .part-1 p{
+font-size: 10px;
+font-weight: 500;
+line-height: 11px;
+color: #000000;
+word-break: break-all;
+}
+.videos .enterprener-3 .part-2{
+  height: 110px;
+  width: 227px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+.videos .enterprener-3 .part-2 h3{
+  color: #252222;
+  font-size: 21px;
+  font-weight: 500;
+}
+.videos .enterprener-3 .part-2 h5{
+  color: #5A6777;
+  font-size: 20px;
+  font-weight: 500;
+}
+.videos .enterprener-3 .part-2 h6{
+  color: #5A6777;
+  font-size: 13px;
+  font-weight: 500;
+}
+.videos .enterprener-3 .part-2 h6 strong{
+  color: #00ADB5;
+}
+.videos .enterprener-3 .part-2 .icons-1{
+    width: 226px;
+    height: 24px;
+    position: relative;
+}
+.videos .enterprener-3 .part-2 .icons-1 .div-a{
+  color: #00ADB5;
+  position: absolute;
+  top: -8px;
+}
+.videos .enterprener-3 .part-2 .icons-1 .div-b p{
+    color: #00ADB5;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: -3px;
+    left: 21px;
+}
+.videos .enterprener-3 .part-2 .icons-1 .div-c{
+    color: #00ADB5;
+    position: absolute;
+    top: -6px;
+    left: 78px;
+}
+.videos .enterprener-3 .part-2 .icons-1 .div-d p{
+  color: #00ADB5;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: -3px;
+    left: 98px;
+}
+.videos .enterprener-3 .part-2 .icons-1 .div-e{
+  color: #00ADB5;
+  position: absolute;
+  top: -7px;
+  left: 163px;
+}
+.videos .enterprener-3 .part-2 .icons-1 .div-f p{
+    color: #00ADB5;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: -3px;
+    left: 185px;
+}
+.videos .enterprener-4{
+  height: 115px;
+  width: 490px;
+  margin-top: 13px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0px 12px;
+}
+.videos .enterprener-4 .part-1 {
+  height: 110px;
+  width: 227px;
+  border: 2px solid #00ADB5;
+  border-radius: 15px;
+  float: left;
+  background-color: #FFFFFF;
+  padding: 8px 9px;
+}
+.videos .enterprener-4 .part-1 p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 11px;
+  color: #000000;
+  word-break: break-all;
+}
+.videos .enterprener-4 .part-2 {
+  height: 110px;
+  width: 227px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+.videos .enterprener-4 .part-2 h3 {
+  color: #252222;
+  font-size: 21px;
+  font-weight: 500;
+}
+.videos .enterprener-4 .part-2 h5 {
+  color: #5A6777;
+  font-size: 20px;
+  font-weight: 500;
+}
+.videos .enterprener-4 .part-2 h6 {
+  color: #5A6777;
+  font-size: 13px;
+  font-weight: 500;
+}
+.videos .enterprener-4 .part-2 h6 strong {
+  color: #00ADB5;
+}
+.videos .enterprener-4 .part-2 .icons-1 .div-a {
+  color: #00ADB5;
+  position: absolute;
+  top: -8px;
+}
+.videos .enterprener-4 .part-2 .icons-1 .div-b p {
+  color: #00ADB5;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  top: -3px;
+  left: 21px;
+}
+.videos .enterprener-4 .part-2 .icons-1 .div-c {
+  color: #00ADB5;
+  position: absolute;
+  top: -6px;
+  left: 78px;
+}
+.videos .enterprener-4 .part-2 .icons-1 .div-d p {
+  color: #00ADB5;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  top: -3px;
+  left: 98px;
+}
+.videos .enterprener-4 .part-2 .icons-1 .div-e {
+  color: #00ADB5;
+  position: absolute;
+  top: -7px;
+  left: 163px;
+}
+.videos .enterprener-4 .part-2 .icons-1 .div-f p {
+  color: #00ADB5;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  top: -3px;
+  left: 185px;
+}
+
+
+
+
+
+

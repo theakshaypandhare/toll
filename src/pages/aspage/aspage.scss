@@ -1,0 +1,319 @@
+.video{
+    width: 100%;
+    height: 17rem;
+    background-color: #00ADB51C;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.icons{
+    width: 100%;
+    height: 3rem;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icons .icon1 .icon2 .icon3 .icon4 .icon5{
+color: black;
+}
+.icons span{
+    font-size: 1em;
+    font-weight: 500;
+}
+.trait{
+    width: 100%;
+    height: 6rem;
+    margin-top: 2px;
+    border-left: 2px solid #00000038;
+    border-right: 2px solid #00000038;
+    border-bottom: 3px solid #00000038;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.trait span{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.trait .common{
+    width: 100%;
+    height: 2.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.trait .common .first{
+    width: 7.4rem;
+    height: 1.7rem;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .first span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.trait .common .second{
+    width: 5rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .second span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.trait .common .third{
+    width: 5.5rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .third span{
+    font-size:  0.8em;
+    margin-left: 2px;
+}
+.trait .common .fourth{
+    width: 3.8rem;
+    height:1.7rem ;
+    border: 1px solid #00ADB5;
+    border-radius: 2px;
+}
+.common .fourth span{
+    font-size:  0.8em;
+    margin-left: 3px;
+}
+.result-s{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 10px;
+}
+.result-s .left-bar{
+    width: 13.7rem;
+    height: 2rem;
+    background-color:#ffffff;
+    color: #00ADB5;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid  #00ADB5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px 0px;
+}
+.result-s .left-bar .part-1 span{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.result-s .right-bar{
+    width: 6.5rem;
+    height: 2rem;
+    background-color: #00ADB5;
+    color: #ffffff;
+    float: right;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px 0px;
+}
+.result-s .right-bar .part-1 {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.box{
+    width:100%;
+    height:30rem;
+    margin-top: 3px;
+    background-color:#00ADB51C;;
+    border-radius:30px;
+    border-top: 2px solid #00000038;
+    border-left: 1px solid #00000038;
+    border-right: 1px solid #00000038;
+}
+.good_luck{
+    width:100%;
+    height:1.5rem;
+    margin-top: 6px;
+}
+.good_luck h5{
+    font-size:0.9em;
+    font-weight: 500;
+    text-align: center;
+    color: #5A6777;
+}
+.total{
+    width:100%;
+    height:1.9rem;
+    margin-top:12px;
+}
+.total .total_question{
+    width:45%;
+    height: 1.9rem;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+.total .total_question h5{
+    font-size:1em;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 2px;
+}
+.total .total_question button{
+   width: 3rem;
+   height: 1.9rem;
+   background-color: #00ADB5;
+   border: none;
+   border-radius: 9px;
+   color: #FFFFFF;
+}
+.total .total_points{
+    width:45%;
+    height: 1.9rem;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+.total .total_points h5{
+    font-size:1em;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 2px;
+}
+.total .total_points button{
+    width: 3rem;
+    height: 1.9rem;
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 9px;
+    color: #FFFFFF;
+ }
+ .box .content{
+    width:100%;
+    height: 5.1rem;
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 2rem 2rem;
+    grid-column-gap: 6px;
+    grid-row-gap: 11px;
+ }
+ .box .content .first{
+    width:100% ;
+    height:2rem ;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .box .content .first h5{
+    font-size: 0.8em;
+    font-weight: 500;
+ }
+ .inner_box{
+    width: 97%;
+    height: 18.5rem;
+    margin: 9px 5px;
+    border: 1px solid #00ADB5;
+    background-color: #ffffff;
+    border-radius: 20px;
+ }
+ .inner_box .layer_1{
+    width:100%;
+    height:2.3rem;
+    margin-top: 7px;
+}
+.inner_box .layer_1 .side-1{
+    width: 46%;
+    height:1.9rem;
+    margin-left: 10px;
+    border: 1px solid #00ADB5;
+    border-radius:15px;
+    padding: 1px 9px;
+    color:#00ADB5;
+    float:left;
+}
+.inner_box .layer_1 .side-2{
+    width: 20%;
+    height:1.9rem;
+    float: right;
+    margin-right: 10px;
+    color: #00ADB5;
+    font-size: 2rem;
+    display: flex;
+    gap: 5px;
+}
+.inner_box .layer_2{
+    width: 100%;
+    height:2rem;
+    margin:5px 0px;
+}
+.inner_box .layer_3{
+    height:2.5rem;
+    width: 100%;
+    line-height:0.8rem;
+}
+.inner_box .layer_3 p{
+    font-size: 0.9em;
+    font-weight: 500;
+    padding:0px 18px;
+}
+.inner_box .layer_4{
+    height: 5.5rem;
+    width: 100%;
+    line-height: 1rem;
+}
+.inner_box .layer_4 p{
+    font-size: 0.9em;
+    font-weight: 500;
+    padding:0px 18px;
+    word-break: break-all;
+}
+.inner_box .layer_5{
+    width:100%;
+    height:2rem;
+    margin-top:2px;
+}
+.inner_box .layer_5 button{
+    width:25%;
+    height:2rem;
+    float: right;
+    background-color: #00ADB5;
+    color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+.inner_box .layer_6{
+    width:100%;
+    height: 2rem;
+    margin-top: 8px;
+}
+.inner_box .layer_6 .inner{
+    width: 77%;
+    height:2rem ;
+    border-radius: 15px;
+    margin:0px 42px;
+    background-color:#D9D9D980;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: centre;
+    padding: 3px 5px;
+}
+
+.inner_box .layer_6 .inner span{
+    color: #231F20;
+}
+.inner_box .layer_6 .inner input{
+    width: 90%;
+    height:1.6rem ;
+    font-size:0.8em;
+    // margin-top: 1px;
+    background-color:#D9D9D980;
+    border: none;
+    
+}

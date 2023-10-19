@@ -1,0 +1,207 @@
+.groupchat .group{
+    width: 100%;
+    height: 8rem;
+    background-color: #E3F6F7;
+}
+.groupchat .group .part_1{
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    padding-top: 8px;
+}
+.groupchat .group .part_1 h3{
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #252A34;
+}
+.groupchat .group .part_2{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+.groupchat .group .part_2 .first button{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #ffffff;
+    color: #212121;
+    font-size: 0.9em;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+}
+.groupchat .group .part_2 .second button{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #ffffff;
+    color: #00adb5;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: 500;
+    border: none;
+}
+.groupchat .search{
+    width: 92%;
+    height: 3.5rem;
+    margin-top:9px;
+    margin-left: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display:flex;
+    gap: 11px;
+    align-items: center;
+    padding: 5px 6px;
+}
+.groupchat .search img{
+    width: 20px;
+    height: 20px;
+}
+.groupchat .search input{
+    width: 80%;
+    height: 2.5rem;
+    border: none;
+}
+.groupchat .chatbox{
+    margin-top:12px;
+    width:100%;
+    height: 15rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.groupchat .chatbox .people{
+    margin-top: 5px;
+    width: 100%;
+    height: 2rem;
+    padding: 2px 18px;
+}
+.groupchat .chatbox .people h5{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.groupchat .chatlist{
+    width: 100%;
+    height: 11.5rem;
+    margin-top: 10px;
+}
+.groupchat .chatbox .chatlist .layer-1{
+    display: grid;
+    grid-template-columns: 13% 41% 42%;
+    grid-template-rows: 2.5rem;
+    grid-column-gap:5px;
+    padding-left: 18px;
+    position: relative;
+}
+.groupchat .chatbox .chatlist .layer-1 .first img{
+    width: 35px;
+    height: 35px;
+}
+.groupchat .chatbox .chatlist .layer-1 .first .recent{
+    width: 13px;
+    height: 15px;
+    background-color: #F24E1E;
+    color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    left: 42px;
+    font-size: 0.65em;
+    padding-left: 3px;
+}
+.groupchat .chatbox .chatlist .layer-1 .second{
+    display: grid;
+    grid-template-rows: 20px 16px;
+}
+.groupchat .chatbox .chatlist .layer-1 .second .part_1 h6{
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.groupchat .chatbox .chatlist .layer-1 .second .part_2 h6{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #303030;
+}
+.groupchat .chatbox .chatlist .layer-1 .third h6{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #303030;
+}
+.groupchat .chatbox .chatlist .layer-2{
+    width: 88%;
+    height: 2px;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: #B4ABABA8;
+}
+.groupchat .chatbox .chatlist .layer-3{
+    display: grid;
+    grid-template-columns: 13% 41% 42%;
+    grid-template-rows: 2.5rem;
+    grid-column-gap:5px;
+    padding-left: 18px;
+    margin-top: 10px;
+}
+.groupchat .chatbox .chatlist .layer-3 .first img{
+    width: 35px;
+    height: 35px;
+}
+.groupchat .chatbox .chatlist .layer-3 .second{
+    display: grid;
+    grid-template-rows: 20px 16px;
+}
+.groupchat .chatbox .chatlist .layer-3 .second .part_1 h6{
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.groupchat .chatbox .chatlist .layer-3 .second .part_2 h6{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #303030;
+}
+.groupchat .chatbox .chatlist .layer-3 .third h6{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #303030;
+}
+.groupchat .chatbox .chatlist .layer-4{
+    width: 88%;
+    height: 2px;
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: #B4ABABA8;
+}
+.groupchat .chatbox .chatlist .layer-5{
+    display: grid;
+    grid-template-columns: 13% 41% 42%;
+    grid-template-rows: 2.5rem;
+    grid-column-gap:5px;
+    padding-left: 18px;
+    position: relative;
+    margin-top: 10px;
+}
+.groupchat .chatbox .chatlist .layer-5 .first img{
+    width: 35px;
+    height: 35px;
+}
+.groupchat .chatbox .chatlist .layer-5 .second{
+    display: grid;
+    grid-template-rows: 20px 16px;
+}
+.groupchat .chatbox .chatlist .layer-5 .second .part_1 h6{
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.groupchat .chatbox .chatlist .layer-5 .second .part_2 h6{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #303030;
+}
+.groupchat .chatbox .chatlist .layer-5 .third h6{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #303030;
+}
